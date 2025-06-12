@@ -1,7 +1,8 @@
 import "./App.css";
+import Board from "./components/board";
 
 function App() {
-  return <></>;
+  return <Board />;
 }
 
 export default App;
