@@ -1,10 +1,11 @@
 import "../App.css";
+import type { SquareValue } from "../types/square";
 
 function Square({
   value,
   onSquareClick,
 }: {
-  value: "X" | "O" | null;
+  value: SquareValue;
   onSquareClick: () => void;
 }) {
   return (
